@@ -4,7 +4,11 @@
 # Скрипт включает или выключает нужную вервию java системно.
 # нужно скачать и положить нужную версию примеру в /usr/local/java/
 # Затем положить в корень этой версиии данный скрипт к примеру сюда : /usr/local/java/jdk1.6.0_27/THIS_SCRIPT.SH
-# После включить или выключить нужную версию JAVA.
+# После включить или выключить нужную версию JAVA так (root or sudo ).
+#
+# cd / /usr/local/java/jdk1.6.0_27/
+# chmod +x java_OnOff.sh
+# ./java_OnOff.sh (enable|disable|status)
 
 # set -x
 
